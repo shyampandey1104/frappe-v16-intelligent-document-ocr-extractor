@@ -16,7 +16,7 @@ class DocumentOCRExtractor:
             "line_items": []
         }
 
-        inv_match = re.search(r"(?:Invoice|Bill|Inv)[\s#:]+([A-Za-z0-9\-]+)", raw_ocr_text, re.IGNORECASE)
+        inv_match = re.search(r"(?:Invoice\s+No|Bill\s+No|Inv\s+No|Invoice#|Bill#|Invoice\s*:)\s*[:#]?\s*([A-Za-z0-9\-]+)", raw_ocr_text, re.IGNORECASE)
         if inv_match:
             extracted["invoice_number"] = inv_match.group(1).strip()
 
