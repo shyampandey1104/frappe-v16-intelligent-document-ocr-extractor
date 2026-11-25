@@ -1,0 +1,9 @@
+[
+ {
+  "dt": "Frappe v16 Intelligent Document Processing & OCR Extractor Entry",
+  "fieldname": "custom_v16_verified",
+  "fieldtype": "Check",
+  "label": "Version 16 Verified",
+  "insert_after": "status"
+ }
+]

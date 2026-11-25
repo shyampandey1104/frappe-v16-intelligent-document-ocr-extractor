@@ -1,0 +1,58 @@
+{
+ "charts": [
+  {
+   "chart_name": "Frappe v16 Intelligent Document Processing & OCR Extractor Analytics",
+   "label": "Frappe v16 Intelligent Document Processing & OCR Extractor Analytics"
+  }
+ ],
+ "content": "[{\"type\": \"header\", \"data\": {\"text\": \"Frappe v16 Intelligent Document Processing & OCR Extractor v16 Workspace\", \"level\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Operations\"}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Audit & Settings\"}}]",
+ "creation": "2026-04-01 10:00:00.000000",
+ "doctype": "Workspace",
+ "label": "Frappe v16 Intelligent Document Processing & OCR Extractor",
+ "links": [
+  {
+   "label": "v16 Operations",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Frappe v16 Intelligent Document Processing & OCR Extractor Entry",
+   "label": "Frappe v16 Intelligent Document Processing & OCR Extractor Entry",
+   "link_to": "Frappe v16 Intelligent Document Processing & OCR Extractor Entry",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "label": "Reports & Audits",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Frappe v16 Intelligent Document Processing & OCR Extractor Audit Log",
+   "label": "Frappe v16 Intelligent Document Processing & OCR Extractor Audit Log",
+   "link_to": "Frappe v16 Intelligent Document Processing & OCR Extractor Audit Log",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "is_query_report": 1,
+   "label": "Frappe v16 Intelligent Document Processing & OCR Extractor Summary",
+   "link_to": "Frappe v16 Intelligent Document Processing & OCR Extractor Summary",
+   "link_type": "Report",
+   "type": "Link"
+  },
+  {
+   "label": "Configuration",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Frappe v16 Intelligent Document Processing & OCR Extractor Settings",
+   "label": "Frappe v16 Intelligent Document Processing & OCR Extractor Settings",
+   "link_to": "Frappe v16 Intelligent Document Processing & OCR Extractor Settings",
+   "link_type": "DocType",
+   "type": "Link"
+  }
+ ],
+ "module": "Intelligent_Doc_Ocr_Core",
+ "name": "Frappe v16 Intelligent Document Processing & OCR Extractor",
+ "public": 1,
+ "title": "Frappe v16 Intelligent Document Processing & OCR Extractor"
+}

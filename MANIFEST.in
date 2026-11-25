@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include intelligent_doc_ocr *.css
+recursive-include intelligent_doc_ocr *.csv
+recursive-include intelligent_doc_ocr *.html
+recursive-include intelligent_doc_ocr *.ico
+recursive-include intelligent_doc_ocr *.js
+recursive-include intelligent_doc_ocr *.json
+recursive-include intelligent_doc_ocr *.md
+recursive-include intelligent_doc_ocr *.png
+recursive-include intelligent_doc_ocr *.py
+recursive-include intelligent_doc_ocr *.svg
+recursive-include intelligent_doc_ocr *.txt
+recursive-exclude intelligent_doc_ocr *.pyc

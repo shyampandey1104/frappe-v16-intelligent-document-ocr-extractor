@@ -1,0 +1,12 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2026-04-01 10:00:00.000000",
+ "doctype": "Report",
+ "is_standard": "Yes",
+ "module": "Intelligent_Doc_Ocr_Core",
+ "name": "Frappe v16 Intelligent Document Processing & OCR Extractor Summary",
+ "ref_doctype": "Frappe v16 Intelligent Document Processing & OCR Extractor Entry",
+ "report_name": "Frappe v16 Intelligent Document Processing & OCR Extractor Summary",
+ "report_type": "Script Report"
+}
